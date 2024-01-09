@@ -18,7 +18,7 @@
   <!-- font Awesome -->
 </head>
 
-<body>
+<body class='bg-dark'>
   <?php
 
   $hotels = [
@@ -76,19 +76,11 @@
    }
    */
 
-
-
-
-
-
-
-
-
-
-
   ?>
 
-  <table class="table w-75">
+  <h1 class='text-center mt-3 text-white'>Hotels</h1>
+
+  <table class="table table-striped w-50 border m-auto mt-5">
     <thead>
       <tr>
         <th scope="col">Hotels Name</th>
